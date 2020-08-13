@@ -195,4 +195,4 @@ def translate(s):
     # 根据id得到单词
     r = [lan2.idx2word[i] for i in s]
     return ' '.join(r) # 生成句子
-print(translate('I try .'))
+print(translate('I try.'))
